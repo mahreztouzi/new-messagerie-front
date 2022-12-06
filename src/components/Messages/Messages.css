@@ -1,5 +1,8 @@
 .messages {
-  padding: 5% 0;
+  padding: 1% 0;
   overflow: auto;
   flex: auto;
+}
+*::-webkit-scrollbar {
+  width: 0 !important;
 }

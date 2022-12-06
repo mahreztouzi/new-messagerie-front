@@ -1,14 +1,22 @@
 .form {
   display: flex;
-  border-top: 2px solid #d3d3d3;
+  /* border-top: 2px solid #fffcfc; */
+  padding: 1%;
+  margin-bottom: 1%;
+  border-top: 1px solid rgb(117, 110, 110);
+  /* background-color: rgba(66, 64, 64, 0.527); */
 }
 
 .input {
   border: none;
-  border-radius: 0;
-  padding: 5%;
-  width: 80%;
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: rgb(51, 50, 50);
+  padding: 1%;
+  padding-left: 20px;
+  width: 90%;
   font-size: 1.2em;
+  margin-top: 2%;
 }
 
 input:focus,
@@ -18,13 +26,12 @@ select:focus {
 }
 
 .sendButton {
+  background-color: black;
   color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #165acf;
-  padding: 20px;
+  margin-top: 3%;
+  padding: 3px;
   display: inline-block;
   border: none;
-  width: 20%;
-  border-radius: 5px;
+  width: 15%;
+  border-radius: 0px 15px 15px 0px;
 }
