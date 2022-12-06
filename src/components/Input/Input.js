@@ -3,7 +3,7 @@ import React from "react";
 import { AiOutlineSend } from "react-icons/ai";
 import "./Input.css";
 
-const Inputs = ({ setMessage, sendMessage, message }) => {
+const Input = ({ setMessage, sendMessage, message }) => {
   return (
     <form className="form">
       <input
@@ -24,4 +24,4 @@ const Inputs = ({ setMessage, sendMessage, message }) => {
   );
 };
 
-export default Inputs;
+export default Input;
